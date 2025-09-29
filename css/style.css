@@ -16,6 +16,9 @@ footer {
   text-align: center;
   background-color: var(--primary-color);
 }
+main{
+    color: white;
+}
 
 /* Navigation */
 .nav__list {
@@ -23,7 +26,7 @@ footer {
   justify-content: space-around;
   gap: 15%;
   list-style: none;
-  background: var(--primary-color);
+  background-color: var(--primary-color);
   padding: 0%;
   margin: 0;
 }
