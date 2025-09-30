@@ -1,53 +1,20 @@
-:root {
-  --primary-color: #007bff;
-  --text-color: #333;
-  --background-color: black;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  line-height: 1.6;
-  color: var(--text-color);
-  background-color: black;
-}
-footer {
-  color: white;
-  text-align: center;
-  background-color: var(--primary-color);
-}
-
-/* Navigation */
-.nav__list {
-  display: flex;
-  justify-content: space-around;
-  gap: 15%;
-  list-style: none;
-  background: var(--primary-color);
-  padding: 0%;
-  margin: 0;
-}
-.nav__link {
-  display: inline-block;
-  padding: 2rem 1rem;  /* top/bottom | left/right */
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.nav__link:hover {
-  text-decoration: underline;
-}
-
-/* Intro Section */
-.intro {
-  text-align: center;
+.about {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 2rem;
+  color: white;
 }
 
-.intro__photo {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem 1rem;
+}
+
+.skills-list li {
+  background: #222;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
 }
