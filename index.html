@@ -20,27 +20,85 @@
     </header>
 
     <main class="container">
-      <section class="intro">
+      <section class="hero">
         <img
           src="images.assets/Profile_pic2.png"
-          alt="Pic of Me"
+          alt="Portrait of Nicholas Eaton"
           class="intro__photo"
         />
-        <h2>Hello, I'm Nicholas Eaton.</h2>
 
-        <p>
+        <h2>Hello, I'm Nicholas Eaton.</h2>
+        <p class="hero-subtitle">Full-Stack Developer</p>
+
+        <p class="hero-text">
           Full-Stack Developer with a background in mechanical systems and
           hands-on problem solving. I build responsive web applications using
           JavaScript, React, Python, and Flask. My goal is to create clean,
           efficient software that solves real-world problems.
         </p>
 
-        <a href="project.html" class="button">View My Projects</a>
+        <div class="hero-buttons">
+          <a href="project.html" class="button">View My Projects</a>
+          <a href="contact.html" class="button button-secondary">Contact Me</a>
+        </div>
+      </section>
+
+      <section class="tech-section">
+        <h2>Technologies</h2>
+        <div class="tech-grid">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>Python</span>
+          <span>Flask</span>
+          <span>SQL</span>
+          <span>Git / GitHub</span>
+        </div>
+      </section>
+
+      <section class="featured-project">
+        <h2>Featured Project</h2>
+        <div class="featured-card">
+          <img
+            src="images.assets/ServiceTrak2.png"
+            alt="ServiceTrak project preview"
+            class="project__image"
+          />
+
+          <div class="project__content">
+            <h3>ServiceTrak</h3>
+            <p>
+              A full-stack service management application for tracking customer
+              work orders, job details, reminders, and task status in real time.
+            </p>
+            <p class="tech-stack">React • Flask • SQL • REST API • CRUD</p>
+
+            <div class="project-buttons">
+              <a
+                href="https://service-trak.vercel.app/"
+                class="button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Demo
+              </a>
+              <a
+                href="https://github.com/nchlseaton3/ServiceTrak.git"
+                class="button button-secondary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer>
-      <p>&copy; 2025 Nicholas Eaton</p>
+      <p>&copy; 2026 Nicholas Eaton</p>
     </footer>
   </body>
 </html>
