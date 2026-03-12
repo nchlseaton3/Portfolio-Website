@@ -8,6 +8,7 @@
 
 .about h2 {
   margin-bottom: 1rem;
+  color: #ffffff;
 }
 
 .about h3 {
@@ -20,6 +21,11 @@
   max-width: 750px;
   margin: 0 auto 1rem;
   color: #e5e7eb;
+  line-height: 1.7;
+}
+
+.about-intro {
+  margin-bottom: 1.5rem;
 }
 
 .skills-list {
