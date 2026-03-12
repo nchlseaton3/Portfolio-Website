@@ -18,7 +18,7 @@ main {
 }
 
 body {
-  font-family: cursive;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   line-height: 1.6;
   color: var(--text-color);
@@ -50,7 +50,7 @@ footer {
 
 .nav__link {
   display: inline-block;
-  padding: 2rem 1rem; /* top/bottom | left/right */
+  padding: 1rem;
   color: white;
   text-decoration: none;
   font-weight: bold;
